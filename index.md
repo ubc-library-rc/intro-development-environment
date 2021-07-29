@@ -23,7 +23,7 @@ By the end of this workshop, you will be able to:
 
 - Install a [Python Interpreter](https://code.visualstudio.com/docs/python/python-tutorial#_install-a-python-interpreter) on your system. We will use Python programming language to show language-specific capabilities of a development environmet such as VS Code
 
-- 
+- Install [Git](https://git-scm.com/downloads) and take a look at the [Introduction to Git](https://ubc-library-rc.github.io/intro-git/) workshop 
 
 ## Schedule
 
