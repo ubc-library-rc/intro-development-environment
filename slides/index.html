@@ -45,21 +45,26 @@
 
 
             <aside class="notes">
+                <p>
                 Hello everyone, Welcome to this workshop which aims to support you to get familiar with coding environments and
                 setup your personal environment for development of codes. This workshop is built for people who are fairly familiar with coding 
                 but would like to improve their knowledge about the tools and processes that improves their productivity.
-            
-                My name is Shayan Fahimi. I am a PhD student in engineering and ...
+                </p>
+                <p>
+                My name is Shayan Fahimi. I am a PhD student in structural engineering. I used programming during the last ten years, for university projects and industry but never 
+                had a software developer role. Thus, in this workshop, I mainly focus on the points that you need to get the job done and build a robust tool for developing, maintaining, and testing your 
+                programming projects.
+                </p>
             </aside>
         </section>
     
         <section style="text-align: left;">
             <h3>Land Acknowledgement</h3>
             <p>UBC Vancouver is located on the traditional, ancestral, and unceded territory of the xʷməθkʷəy̓əm (Musqueam), səl̓ilwətaɁɬ təməxʷ (Tsleil-Waututh), Stz’uminus, S’ólh Téméxw (Stó:lō), Skwxwú7mesh-ulh Temíx̱w (Squamish), and Coast Salish peoples.</p>
-            <span class="fragment"><p>Please take a moment to explore <b><a href="https://www.native-land.ca/" target="_blank">native-land.ca</a></b> so that you can visualize the indigenous territories, languages, and treaties in your area.</p></span>
+            <p>Please take a moment to explore <b><a href="https://www.native-land.ca/" target="_blank">native-land.ca</a></b> so that you can visualize the indigenous territories, languages, and treaties in your area.</p>
             <aside class="notes">
                 But before going into more details I would like to begin by acknowledging that I am fortunate to present this workshop in Burnaby which is the unceded territory of the Coast Salish People.
-                Please take a moment to explore this website and learn more about the land you are located now. 
+                Please take a moment to explore this website and use the chat to share where you are coming from. 
             </aside>
         </section>
     
@@ -71,16 +76,20 @@
                 <li>Visual Studio Code</li>
                 <li>Terminal</li>
                 <li>Source Control</li>
-                <li>Virtualization</li>
+                <li>Remote Machines</li>
                 <li>Community</li>
             </ul>
             <aside class="notes">
+                <p>
                 This workshop starts by introducing the concept of development environment.
                 Then, we talk about code editors and among those, we choose VSCode to dive deeper
                 and learn about their abilities.
+                </p>
+                <p>
                 After that, we talk also about terminal, source control, virtualization, and community.
                 The later sections are also guides to use other workshops presented by the 
                 UBC library commons.
+                </p>
             </aside>
         </section>
     
@@ -89,6 +98,7 @@
 
             <aside class="notes">
                 Coding can be as simple as opening a notepad file and typing the commands. However, it is not a convenient solution for many even professional developers. Integrated Development Environments (IDEs) are created to make the process easier by combining a set of tools to write, compile, debug, and test the codes in a single environment. While these tools make life much easier, they can be very complicated.    
+                Ask them what is a development environment and if they have any installed on their machine right now
             </aside>
         </section>
 
@@ -102,7 +112,17 @@
             </ul>
 
             <aside class="notes">
-               Development environments have four main components: 
+            <p>
+            Development environments have four main components: 
+            </p> 
+            <p>
+            code editor is a simple text editor program designed for editing source codes on your machines.
+            A command line interface processes commands to a computer program in the form of lines of text. The lines of texts are interpreted by this program and then sent for execution. Windows command prompt and linux terminal are two examples.
+            Like programming languages, we have command line languages, such as bash or zsh, which are also called shell in Unix. 
+            A version control system is responsible for managing changes to a computer programs, documents, or generally collections of information. Git and Subversion are two main free version control systems used by developers right now.
+            and a package manager or package management system automates the process of installing, upgrading, configuring and removing programs from your machine. Windows has a package manager, some linux distributions has a package manager called apt, python has a package manager called pip
+            and some development environment has exclusive package managers such as conda.
+            </p>
             </aside>
         </section>
     
@@ -112,50 +132,116 @@
                 <li>syntax highlighting</li>
                 <li>syntax checking</li>
                 <li>code completion</li>
+                <li>automatic code formatting</li>
                 <li>powerful text manipulation and scrolling tools</li>
             </ul>
 
             <aside class="notes">
-                Code editors provide tools to create, edit, and save plain text files. Compared to word processors, they lack the tools for formatting the text. On top of that, most code editors offer additional features, such as:
+            <p>
+            Code editors provide tools to create, edit, and save plain text files. Compared to word processors, they lack the tools for formatting the text. On top of that, most code editors offer additional features, such as:
+            </p>
+            <p>
+            syntax highlighting, which displays text, especially source code, in different colors and fonts. This feature helps you to quickly differentiate logical expression from function definitions and so on.
+            </p>
+            <p>
+            Syntax checking highlights the errors and sometimes irregular programming styles to improve the functionality and quality of your code.
+            </p>
+            <p>
+            Code completion is useful for quickly writing an script or function without fully typing all the lines. It also helps with writing the variable or function names and reduces spelling errors.
+            </p>
+            <p>
+            Automatic code formatting is an advanced tool that formats your code to follow the accepted style and format. It facilitates collaboration and maintanenace of your code.
+            </p>
+            and finally you will find advanced text manipulation and scrolling which accelerates search and replace tasks or when you want to add or delete a certain character in multiple lines.
             </aside>
         </section>
 
         <section style="text-align: left;">
-            <h3>Comparison of Editors</h3>
+            <h3>Editors</h3>
             <ul>
                 <li>Notepad</li>
-                <li>Notepad++</li>
-                <li>Atom</li>
-                <li>Visual Studio Code (VSCode)</li>
-                <li>Vim</li>
+                <li><a href="https://notepad-plus-plus.org/">Notepad++</a></li>
+                <li><a href="https://atom.io/">Atom</a></li>
+                <li><a href="https://code.visualstudio.com/">Visual Studio Code (VS Code)</a></li>
+                <li><a href="https://www.vim.org/">Vim</a></li>
+                <li><a href="https://www.nano-editor.org/">Nano</a></li>
+                <li>and many more ...</li>
             </ul>
 
             <aside class="notes">
-                Code editors provide tools to create, edit, and save plain text files. Compared to word processors, they lack the tools for formatting the text. On top of that, most code editors offer additional features, such as:
+            <p>
+            There are many different code editors in the market. Among the ones shown in this list, Notepad and notepad++ are for Windows. Atom is a free and open source 
+            code editor available for all operating systems. It is developed by Github. 
+            </p>
+            <p> 
+            Vim and Nano are free and open source but only available for Unix like systems. Both of them are available in the terminal, thus, while they are very popular 
+            among professional users, they have a steep learning curve. Nano is more user friendly than Vim but still does not provide a full graphical user interface. 
+            We will learn today how to use Visual Studio Code graphical user interface on remote servers, which can substitute some use cases of Nano and Vim.
+            </p>
+            </aside>
+        </section>
+
+        <section style="text-align: left;">
+            <h3>Online Editors</h3>
+            <ul>
+                <li><a href="https://jupyter.org/">Jupyter Notebooks</a></li>
+                <li><a href="https://ubc.syzygy.ca/">UBC Syzygy</a></li>
+                <li><a href="https://colab.research.google.com/notebooks/">Google Colaboratory</a></li>
+            </ul>
+
+            <aside class="notes">
+            <p>
+            Jupyter notebooks are first built for Python development, as a learning tools accessible as a web application. 
+            They provide an easy-to-use and interactive environment and are currently available across various programming languages. They support Markdown, allowing you to add comments and reports to the code. You can export the code or the report later. While they are a good choice for testing ideas or developing small projects, they are not suitable for building biggger projects.
+            </p>
+            <p> 
+            Google Colaboratory is a free and online tool built by Google that offers free CPU and GPU for developing Python code in Jupyter Notebooks. It is a great choice for beginners to learn Python development or run small projects and access them on all their devices.
+            </p>
             </aside>
         </section>
     
         <section>
             <h2>Visual Studio Code</h2>
-
+            <img class="r-frame" src="../content/images/intro-vscode.png" height="200">
             <aside class="notes">
-                Visual Studio Code is a simple text editor with some powerful IDE-like features. It is a separate product from Visual Studio, Microsoft's full-featured and well-known IDE. While VS Code is only a couple of hundred megabytes and is free, Visual Studio is at least several Gigabytes and it is not free. VS Code is also open-source and is easy to customize. You can quickly set keybindings and syntax highlightings based on the programming language you are using and your experience. Moreover, it has a built-in file explorer, source control, terminal, remote explorer, and supports extensions that add greats capabilities.
+            <p>
+            Visual Studio Code is a simple text editor with some powerful IDE-like features. It is a separate product from Visual Studio, Microsoft's full-featured and well-known IDE. 
+            While VS Code is only a couple of hundred megabytes and is free, Visual Studio is at least several Gigabytes and it is not free. VS Code is also open-source and is easy to customize. 
+            You can quickly set keybindings and syntax highlightings based on the programming language you are using and your experience. Moreover, it has a built-in file explorer,
+            source control, terminal, remote explorer, and supports extensions that add greats capabilities.
+            </p>
             </aside>
         </section>
 
         <section>
             <h2>Installing</h2>
-
+            <p><a href="https://code.visualstudio.com/download">Download Visual Studio Code</a></p>
             <aside class="notes">
-                
+            You can download and install VS Code for your system architecture from here.
             </aside>
         </section>
 
         <section>
             <h2>User Interface</h2>
 
+            <img class="r-frame" src="../content/images/interface.png" height="550">
+
             <aside class="notes">
-                
+            <p>
+            Editor - the main area to edit your files. You can open many editors and arrange them side by side.
+            </p>
+            <p>
+            Activity Bar - lets you switch between the tools availables on the far left-hand side and gives context-specific information, such as the number of outgoing changes when Git is enabled.
+            </p>
+            <p>
+            Side Bar - contains different views that can be toggled using the icons in the Activity Bar.
+            </p>
+            <p>
+            Status Bar - shows information about the open file in the editor, like number of lines and programming language
+            </p>
+            <p>
+            Panels - different panels are located below the editor region to show debugging information or an integrated terminal.
+            </p> 
             </aside>
         </section>
 
@@ -163,81 +249,253 @@
             <h2>Keyboard Shortcuts</h2>
 
             <aside class="notes">
-                
+                <p>
+                Like any other code editor, Visual Studio Code has an extensive number of shortcuts which are editable using Keyboard Shortcut editor. 
+                You can find a list of them in File > Preferences > Keyboard Shortcuts. You can also find a condensed PDF version here or by clicking Help > Keyboard Shortcut Reference
+                </p>
+                <p>
+                Ctrl + Shift + P - shows the command palette that contains recently used commands and a search box for finding the right command.
+                </p>
+                <p>
+                Ctrl + P - Quickly open files
+                </p>
+                <p>
+                Alt + Click - insert a second curser where you clicked
+                </p>
+                <p>
+                Ctrl + Alt + up/down arrow  or dragging - insert a second curser above or below (Multi-curser selection is an efficient way to modify multiple lines simoultaneously. )
+                </p>
+                <p>
+                Ctrl + Shift + L - select all occurrences of current selection
+                Ctrl + D selects the next occurance
+                </p>
+                <p>
+                Ctrl + Space - triger code completion suggestion
+                </p>
+                <p>
+                F5 - Start/Continue debugging
+                </p>
+                <p>
+                Shift + F5 - Stop debugging
+                </p>
+                <p>
+                F9 - Toggle breakpoint
+                </p>
+                <p>
+                Ctrl+` - Show integrted terminal
+                </p>
             </aside>
         </section>
 
         <section>
-            <h2>Integrated Terminal</h2>
+            <h2>Find and Replace</h2>
 
+            <p>What are regular expressions?</p>
+            <p><a href="https://ubc-library-rc.github.io/intro-regex/">Check out our workshop on Regular Expressions</a></p>
             <aside class="notes">
-                
+                <p>
+                You can use find in selection or search across files
+                You can also use regular expressions
+                </p>
+            </aside>
+        </section>
+
+        
+        <section>
+            <h2>Exercise 1</h2>
+            <p>
+                Multiple Cursers
+            </p>
+            <aside class="notes">
             </aside>
         </section>
 
         <section>
             <h2>Themes</h2>
-
             <aside class="notes">
-                
+                <p>
+                You can modify the colours in VS Code user interface by colour themes. Open the colour Theme picker with File > Preferences > Workbench > Appearance > colour Theme. You can preview the colours of the theme using the curser keys and select the theme you want and press Enter.
+                </p>
+                <p>
+                You can also find colour themes in VS Code Extension Marketplace developed by the community. The colour themes can be customized both in the Appearance section. Use the keyboard shortcut Ctrl + K + T to display the theme picker and select the theme you want by pressting Enter.
+                </p>
+                <p>
+                If you like to customize your theme, Look at Customizing a color theme
+                </p>
             </aside>
         </section>
 
         <section>
+            <h2>Settings</h2>
+            <ul>
+                <li>User Settings</li>
+                <li>Workspace Settings</li>
+            </ul>
+            <aside class="notes">
+                <p>
+                User Settings apply globally to any instance of VS Code while Workspace Settings are stored inside your workspace and override user settings when the workspace is opened.
+                </p>
+                <p>Add a ruler</p>
+            </aside>
+        </section>
+
+        <section data-background="#002145">
             <h2>Extensions</h2>
-
+            <ul>
+                <li><a href="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight">TODO Highlight</a></li>
+                <li><a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a></li>
+                <li><a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2">Bracket Pair Colorizer 2</a></li>
+                <li><a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">GitLens</a></li>
+                <li><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner">Code Runner</a></li>
+                <li><a href="https://marketplace.visualstudio.com/items?itemName=znck.grammarly">Grammarly (unofficial)</a></li>
+                <li><a href="https://code.visualstudio.com/docs/editor/intellisense">IntelliSense</a></li>
+            </ul>
             <aside class="notes">
-                
+            <p>
+                TODO highlight shows the TODOs in your comments with a different colour. You can also make a list of all highlighted annotations.
+            </p>
+            <p>
+                This extension is a code formatter that helps you enforse consistent style in your project. It is particularly useful if you have multiple people working on the project. 
+            </p>
+            <p>
+                GitLens adds more functionality to the built-in Git capabilities of VS Code and allows you to see who, why, and how lines of code have changed over time.            </p>
+            <p>
+                Code Runner is an extension that enables you to run snippets of code or code files written in a variety of languages right in Visual Studio Code. 
+            </p>
+            <p>
+                If you use Markdown or LaTeX in VS Code to write your articles, linking Grammarly can help you to easily check spelling and grammars. While the extension is not officially supported and has some issues, it is the best option available right now.
+            </p>
+            <p>
+                IntelliSense is a general term for various code editing features including: code completion, parameter info, quick info, and member lists. Microsoft and VS Code community are developing and maintaining IntellSense extensions for almost all languages and you can find them by searching in the marketplace.
+            </p>
+            </aside>
+        </section>
+
+    
+        <section data-background="#002145">
+            <h2>Configure VS Code for Python</h2>
+            <p>
+                <a href="https://www.python.org/downloads/">Install Python</a>
+            </p>
+            <aside class="notes">
+            </aside>
+        </section>
+
+        <section>
+            <h2>Formatting and Linting</h2>
+            <p>
+                <video data-autoplay src="https://az754404.vo.msecnd.net/public/python-linting.mp4"></video>
+            </p>
+            <aside class="notes">
+                <p>
+                    Linting is the process of checking the code for syntactical and stylistic errors. The extension you installed also uses a linter, PyLint, that highlights problems in your source code. For example, it detects uninitialized or undefined variables, calls to undefined functions, missing parantheses, using unimported libraries and much more.
+                </p>
+                <p>
+                    Formatting helps people to read the code easier by applying rules and conventions for line spacing, indents, spacing around operators and much more. The changes applied to the code by formatting does not change the functionality of the code. Formatters also known as beautifiers or indenters.
+                </p>
             </aside>
         </section>
     
-        <section>
-            <h2>Terminal</h2>
+        <section data-background="#002145">
+            <h2>Run, Debug, and Test</h2>
+            <aside class="notes">
+                <p>
+                    VS Code has built-in debugging support for langauges that gets transpiled to JavaScript. For other languages, there are Debugger extensions in the VS Code Marketplace.
+                    Select the Run icon in the Activity Bar on the side of VS Code to bring up the Run view. This tab displays all information related to running and debugging. You can insert Breakpoints or Logpoints and Run and Debug the code by pressing F5 or Run and Debug. 
+                </p>
+                <p>
+                    Unit testing is a software testing method in which you test specific pieces of code, also known as units, automatically and with a full range of different inputs, including boundary and edge cases. Unit tests are concerned only with the inputs and outputs of a unit, not with its implementation. To thoroughly test a function, you want to throw every conceivable input at it. For each input, you define the function’s expected return value.
+                </p>
+            </aside>
         </section>
-    
+
         <section>
-            <h2>Source Control</h2>
+            <h2>Exercise 2</h2>
+            <p>
+                Write unit tests for the other functions
+            </p>
+            <aside class="notes">
+            </aside>
         </section>
         
-        <section>
-            <h2>Virtualization</h2>
+        <section data-background="#002145">
+            <h2>Terminal</h2>
+            <p>
+            <ul>
+                <li>Windows shell</li>
+                <ul>
+                    <li>Command Prompt</li>
+                    <li>Powershell</li>
+                </ul>
+                <li>Unix shell</li>
+                <ul>
+                    <li>Bash</li>
+                    <li>Z shell</li>
+                </ul>
+            </ul>
+            </p>
+            <p>
+            <ul>
+                <li>
+                    <a href="https://ubc-library-rc.github.io/intro-shell/">Introduction to the Unix Shell</a>
+                </li>
+            </ul>
+            </p>
+            <aside class="notes">
+                <p>
+                    The terminal or command-line interface (CLI) is an interface in which you can type and execute text based commands. Terminals also might be called console, shell, command line, or command prompt. Different operating systems provide shells for executing commands and remote applications.
+                </p>
+                <p>
+                    The terminal is shown at the bottom of the screen and the terminal tabs view is on the right side of the terminal view. Each terminal has its own name. You can open WSL, Windows Powershell, or any other available terminal on your OS by choosing it from the list.
+                </p>
+            </aside>
         </section>  
     
-        <section>
-            <h2>Community</h2>
+        <section data-background="#002145">
+            <h2>Source Control</h2>
+            <p>
+                <a href="https://git-scm.com/downloads">Download Git</a>
+            </p>
+            <ul>
+                <li><a href="https://ubc-library-rc.github.io/intro-git/">Introduction to Git and GitHub</a></li>
+            </ul>
+
+            <aside class="notes">
+                <p>
+                Visual Studio Code has integrated source control management and support Git. You can also install other source control providers through VS Code Extension Marketplace.
+                </p>
+                <p>
+                The source control icon on the Activity Bar indicates an overview of the changes in the current repository. You can also open it using Ctrl + Shift + G shortcut. If you do not have a repository, you should create one first. The Introduction to Git and GitHub workshop covers the basics of Git and how to sync your local repository with GitHub.
+                </p>
+                <p>
+                In VS Code, you can stage and commit changes using the graphical user interface or by the terminal. Lets look at an example:
+                </p>
+            </aside>
         </section>  
     
-        <section>
-            <h2>Templates</h2>
+        <section data-background="#002145">
+            <h2>Remote Machines</h2>
+            <p>
+            <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack">Remote Developer Extension</a>
+            </p>
+            <ul>
+                <li><a href="https://code.visualstudio.com/docs/python/environments">Virtual Environments in Python</a></li>
+                <li><a href="https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/">Get started with the Windows Subsystem for Linux</a></li>
+                <li><a href="https://ubc-library-rc.github.io/intro-docker/">Introduction to Docker</a></li>
+            </ul>
+            <aside class="notes">
+                <p>
+                    Remote Development is a VS Code extension developed by Microsoft that lets you open any folder in a container, a remote machine, or in WSL and use all features of VS Code to edit files in that directory. This greatly simplify development and troubleshooting. You can use all VS Code tools and the graphical user interface with SSH.
+                </p>
+                <p>
+                The source control icon on the Activity Bar indicates an overview of the changes in the current repository. You can also open it using Ctrl + Shift + G shortcut. If you do not have a repository, you should create one first. The Introduction to Git and GitHub workshop covers the basics of Git and how to sync your local repository with GitHub.
+                </p>
+                <p>
+                In VS Code, you can stage and commit changes using the graphical user interface or by the terminal. Lets look at an example:
+                </p>
+            </aside>
         </section> 
-    
-        <section>
-            <h2>Build</h2>
-        </section> 
-    
-        <section>
-            <h2>Front Matter</h2>
-        </section> 
-    
-        <section>
-            <h2>Content Management</h2>
-            <li> Writing posts, drafts, and pages</li>
-            <li> Insert images </li>
-            <li> Collections and Tags</li>
-        </section> 
-    
-        <section>
-            <h2>Liquid</h2>
-        </section> 
-    
-        <section>
-            <h2>Plugins</h2>
-        </section> 
-    
-        <section>
-            <h2>Serving your website</h2>
-        </section> 
-    
+
         <section data-background="#002145">
            <p> More from the Research Commons at (UBC-V)</p>
            <ul>

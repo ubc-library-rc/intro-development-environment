@@ -4,3 +4,5 @@ _site
 *.DS_Store
 .jekyll-cache
 .vscode
+__pycache__
+.pytest*
