@@ -3,6 +3,7 @@ layout: default
 title: Outline
 nav_order: 1
 ---
+
 # Setting Up a Development Environment
 
 While many argue that the best way to learn to code is to simply start coding, having the right set of tools makes coding much more enjoyable and productive. In this workshop, we explore the differences between development environments and basic text editors and we will set up a simple development environment using [Visual Studio Code](https://code.visualstudio.com/). Moreover, this workshop introduces VSCode extensions, such as Git, SSH, and Docker, and gives you resources to learn more about them.
@@ -11,9 +12,9 @@ While many argue that the best way to learn to code is to simply start coding, h
 
 By the end of this workshop, you will be able to:
 
-1. Recognize the role and purpose of a development environment and editor in computer programming
+1. Recognize the role of a development environment and source code editor in computer programming
 2. Become familiar with the [Visual Studio Code](https://code.visualstudio.com/) interface and tools
-3. Run codes, debug, and write tests (in Python) in Visual Studio Code environment 
+3. Run codes and debug in Visual Studio Code environment (in Python) 
 4. Employ Extensions to connect Visual Studio Code with other development tools such as SSH, Git, and Docker
 
 ## Before the workshop
@@ -28,9 +29,8 @@ By the end of this workshop, you will be able to:
 
 | 0:00 | Welcome and using Zoom|
 | 0:05 | Introduction |  
-| 0:15 | Integrated development environments and editors |
-| 0:20 | Visual Studio Code basics |
-| 0:30 | Exercise 1 |
+| 0:10 | Integrated development environments and editors |
+| 0:25 | Visual Studio Code basics and Exercise 1|
 | 0:35 | Themes, settings, and extensions |      
 | 0:45 | Python in VS Code + Exercise 2 |
 | 1:00 | Source control and remote machines |
