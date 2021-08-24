@@ -31,10 +31,10 @@ By the end of this workshop, you will be able to:
 | 0:05 | Introduction |  
 | 0:10 | Integrated development environments and editors |
 | 0:25 | Visual Studio Code basics and Exercise 1|
-| 0:35 | Themes, settings, and extensions |      
-| 0:45 | Python in VS Code + Exercise 2 |
-| 1:00 | Source control and remote machines |
-| 1:10 | Q&A |
+| 0:40 | Themes, settings, and extensions |      
+| 0:55 | Python in VS Code + Exercise 2 |
+| 1:20 | Source control and remote machines |
+| 1:35 | Q&A |
 
 ## Slides
 

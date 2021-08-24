@@ -8,6 +8,7 @@ By the end of this workshop, students will be able to:
 
 ## Preparing to Teach
 
+- My goal for this workshop was to present them a set of tools for streamlining code development and VS Code as the integrator.
 - Uninstall VS Code and Python, make sure that you uninstall extensions and settings by deleting the whole folder in `%UserFolder%\AppData\Roaming\Code` and deleting extension folder in `%UserFolder%\. vscode`
 - Follow the pattern of "Why someone wants to do a thing?" and then "How to do it?"
 -  If there is enough time, show examples of what extensions do, via screenshots or clickthrough
@@ -37,7 +38,20 @@ By the end of this workshop, students will be able to:
 	
 	b. Exercises on debugging and testing
 
-10. Terminal link with course on UBC
+10. Terminal -> changing the terminal and installing different terminal interpreters
 11. Source Control -> link with UBC workshop (git and github) -> link with source control extension in VS Code
 	a. Install Git and show how to add the files to Git
 	b. Comparison of files using right click
+12. Virtual environments, containerization, docker workshop by UBC, managing containers and ssh into containers
+
+## Extra resources
+
+- Install and customize (user interface, setup, keyboard shortcuts and key binding extensions): [https://code.visualstudio.com/docs/introvideos/basics](https://code.visualstudio.com/docs/introvideos/basics)
+
+- Using keyboard extensions for editing and viewing code: [https://code.visualstudio.com/docs/editor/codebasics](https://code.visualstudio.com/docs/editor/codebasics)
+
+- [Version control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
+
+- [Container extension in VS Code](https://code.visualstudio.com/docs/containers/overview)
+
+- [Setting up a Python development environment in VS Code](https://www.youtube.com/watch?v=-nh9rCzPJ20)
