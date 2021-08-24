@@ -22,7 +22,7 @@ By the end of this workshop, students will be able to:
 3. Tools of Development environment and code editors
 4. What is VS Code? VS Code and Python installation on your system (20 mins)
 5. VS Code interface
-6. VS Code shortcuts (using multi curser for two exercises)
+6. VS Code shortcuts (using multi curser for two exercises - make sure that you slowly explain how to download files from Github, unzip, and open them in vs code)
 	a. Build one exercise with several columns and ask them to delete commas 
 	b. Build another one in which they use special search for replacing words and then use multi curser
 7. VS Code themes and settings (30 mins)
@@ -31,7 +31,7 @@ By the end of this workshop, students will be able to:
 	a. What makes an extension good? (well maintained, used by a lot of people) 
 	b. Talk about settings sync (for example, in a research project, all colleagues can sync their development environment while working on different machines)
 	c. Show format on save for prettier
-9. Install Python and introduce python extension + run/debug/ and test
+9. Install Python and introduce python extension + run/debug/ and test (For macOS, they need to install homebrew and then install python using brew)
 	a. Talk about choosing the interpreter and virtual environment
 	
 	"python.formatting.provider": "black",
